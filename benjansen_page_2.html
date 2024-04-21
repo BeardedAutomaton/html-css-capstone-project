@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Spellcasting</title>
+        <link rel="stylesheet" type="text/css" href="benjansen.css">
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <div class="header-center">
+                    <div>
+                        <h1>Character</h1>
+                        <h1>Sheet</h1>
+                    </div>
+                    <div>
+                        <h4><p>Character Name:<u> Ben Jansen&emsp;&emsp;</u> Ancestry:<u> Human&emsp;&emsp;</u> Pronouns:<u> He/Him&emsp;&emsp;</u><br><br>
+                            Class:<u> Wizard (Programmer)&emsp;&emsp;</u> Level:<u> 1&nbsp;&nbsp;</u> Alignment:<u> Chaotic Good&emsp;&emsp;</u><br><br>
+                            Email:<u> BenJansen0014@gmail.com&emsp;&emsp;&emsp;</u></p></h4>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section>
+            <div class="banner">
+                <div class="banner-center">
+                    <h2>Spellcasting</h2>
+                    <a href="file://wsl.localhost/Ubuntu-20.04/home/automaton0/aa-projects/html-css-capstone-project/benjansen.html"><button type="button">Page 1<br>Character Profile</button></a>
+                    <a href="file://wsl.localhost/Ubuntu-20.04/home/automaton0/aa-projects/html-css-capstone-project/benjansen_page_2.html"><button type="button">Page 2<br>Spellcasting</button></a>
+                    <a href="file://wsl.localhost/Ubuntu-20.04/home/automaton0/aa-projects/html-css-capstone-project/benjansen_page_3.html"><button type="button">Page 3<br>Arcane Treasury</button></a>
+                    <a href="file://wsl.localhost/Ubuntu-20.04/home/automaton0/aa-projects/html-css-capstone-project/benjansen_page_4.html"><button type="button">Page 4<br>Contact Links</button></a>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <form action="/form-handling-url" method="post">
+                <fieldset>
+
+                    <div>
+                        <label for="spell_name">Spell:</label>
+                        <select id="spell_name" name="spell">
+                            <option value="-">-</option>
+                            <option value="fireball">Fireball</option>
+                            <option value="sleep">Sleep</option>
+                            <option value="invisibility">Invisibility</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="spellLevel">Spell Level:</label>
+                        <input type="number" id="spellLevel" name="spell_level" min="0" max="9">
+                    </div>
+                    <div>
+                        <label for="verbalComponents">Verbal Components?</label>
+                        <input type="checkbox" id="verbalComponents" name="verbalComponents">
+                    </div>
+
+                    <div>
+                        <label for="somaticComponents">Somatic Components?</label>
+                        <input type="checkbox" id="somaticComponents" name="somaticComponents">
+                    </div>
+
+                    <div>
+                        <label for="materialComponents">Material Components:</label>
+                        <input type="text" id="materialComponents" name="materialComponents">
+                    </div>
+
+                    <div>
+                        <label for="spellDescription">Spell Description:</label>
+                        <textarea id="spellDescription" name="spellDescription"></textarea>
+                    </div>
+
+                    <div>
+                        <button type="button">Cast!</button>
+                    </div>
+
+                </fieldset>
+            </form>
+        </section>
+    </body>
+</html>
